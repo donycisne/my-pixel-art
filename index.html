@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" >
+  <meta charset="utf-8">
+  <title>Pixel Art Maker</title>
+  <link rel="icon" type="image/png" href="img/batman.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link rel="stylesheet" href="css/index.css">
+  <script src="js/jquery-3.1.1.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/html2canvas.js"></script>
+  <script src="js/FileSaver.js"></script>
+  <script src="js/dom-to-json.js"></script>
+  <script src="js/batman.js"></script>
+  <script src="js/flash.js"></script>
+  <script src="js/wonder.js"></script>
+  <script src="js/invisible.js"></script>
+  <script defer src="js/recursos.js"></script>
+  <script defer src="js/pixel-art.js"></script>
+</head>
+  <body>
+
+    <section id="container">
+      <main>
+        <header>
+        <h1>Pixel Art</h1>
+      </header>
+      <section id="paleta">
+      </section>
+      <ul class="input-color">
+        <li>
+          <span id="indicador-de-color" class="cursor-personalizado"></span>
+          <p id="indicador-de-color-mensaje">Pincel</p>
+        </li>
+        <li>
+          <input id="color-personalizado" class="input-color" type="color" name="name" value="#ffffff">
+          <p class="custom input-color">rueda de colores</p>
+        </li>
+      </ul>
+
+      <button id="guardar" type="button" name="button">Guardar</button>
+      <button id="borrar" type="button" name="button">Borrar todo</button>
+      </main>
+            <div id="grilla-pixeles" class="cursor-personalizado">
+      </div>
+    </section>
+
+    <h3>Usá a tu superhéroe favorito</h3>
+      <ul class="imgs">
+       <li> <img id="batman" src="img/batman.png" alt="batman"></li>
+       <li> <img id="wonder" src="img/wonder.png" alt="wonder woman"></li>
+       <li> <img id="flash" src="img/flash.png" alt="flash"></li>
+       <li><img id="invisible" src="img/invisible.png" alt="invisible"></li>
+
+      </ul>
+  </body>
+</html>
