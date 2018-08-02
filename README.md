@@ -1,3 +1,3 @@
-# Pixel-Art Project
+# Pixel Art
 
-Aplicación para dibujar pixeles.
+Dibujar pixeles es divertido intentalo ðŸ™‚.
